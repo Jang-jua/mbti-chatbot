@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import QuestionDisplay from "./QuestionDisplay";
-import UserInput from "./UserInput";
+import { HashRouter as Router } from 'react-router-dom';
 
 const questions = [
   "친구들과 단체 여행을 떠났을 때 너는 어떤 역할이야?",

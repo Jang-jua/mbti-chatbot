@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaSyncAlt, FaPaperPlane } from "react-icons/fa";
 
+
 const App = () => {
   const [question, setQuestion] = useState("Q. 친구들과 단체 여행을 떠났을 때 너는 어떤 역할이야?");
   const [answer, setAnswer] = useState("");
